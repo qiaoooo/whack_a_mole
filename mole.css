@@ -1,0 +1,83 @@
+/* Your code here */
+.start {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.score {
+  color: rgb(104, 94, 114);
+  margin-top: 0%;
+}
+
+
+button {
+  background: rgba(60, 235, 17, 0.2);
+  font-size: 2rem;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+.game {
+  display: inline-block;
+  width: 100vw;
+}
+
+.wgs {
+  position: relative;
+  width: 23vw;
+  height: 30vh;
+  display: inline-block;
+  overflow:hidden;
+}
+
+.wgs__mole-head {
+  top: 0 !important;
+}
+
+.wgs__dirt-pile {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+}
+
+
+.wgs__mole-head--hidden {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  left: 20%;
+  top: 80%;
+  transition: all 0.4s ease;
+}
+
+@keyframes whack {
+  0% {
+      transform: rotate(-30deg);
+    }
+  
+  50% {
+    transform: rotate(-45deg);
+  }
+  
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+
+
+.wgs__mole-head--whacked{
+  animation-name: whack;
+  animation-duration: 1s;
+}
+
+
