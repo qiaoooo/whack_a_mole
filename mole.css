@@ -28,13 +28,15 @@ button {
 
 .game {
   display: inline-block;
-  width: 100vw;
+  margin-left: 25vw;
+  width: 50vw;
+  height: 50vh;
 }
 
 .wgs {
   position: relative;
-  width: 23vw;
-  height: 30vh;
+  width: 30%;
+  height: 30%;
   display: inline-block;
   overflow:hidden;
 }
