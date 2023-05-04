@@ -1,6 +1,6 @@
 # whack_a_mole
 
-Let's build a Whack a Mole game using html, css and JS.
+Let's build a [Whack a Mole](https://qiaoooo.github.io/whack_a_mole/) game using html, css and JS.
 
 ## Folder Structure of the project
 
